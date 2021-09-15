@@ -61,7 +61,7 @@ const App = () => {
           <Image src="https://images.unsplash.com/photo-1580692475446-c2fabbbbf835?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=634&q=80" rounded className="gambar-trend" />
           <div className="trend-caption">
             <h1>Who will be MVP of the year</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat nobis illo fuga?</p>
+            <p>Lorem ipsum dolor sit amet, consectedtur adipisicing elit. Fugiat nobis illo fuga?</p>
 
           </div>
             
