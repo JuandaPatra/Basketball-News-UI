@@ -1,0 +1,404 @@
+.home{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    // height: 1000px;
+    margin-bottom: 10vh;
+
+    .headline{
+        margin: 1%;
+        // background-color: blue;
+        // height: 20vh;
+        display: flex;
+        flex-direction: column;
+
+        .caption{
+            display: flex;
+            margin-left: 0;
+            z-index: auto;
+            position: relative;
+            color: white;
+            // display: none;
+
+            .caption-word{
+                display: none;
+            }
+        }
+
+        .word{
+            position: relative;
+            top: -50%;
+            left: 1%;
+            // margin-top: 10%;
+        }
+
+        .gambar{
+            height: 85vh;
+        }
+
+        
+
+        .top-news{
+            .head-pop-news{
+                color: white;
+                text-align: center;
+                font-size: larger;
+            }
+            
+            .pop-news{
+                display: flex;
+                flex-direction: column;
+
+            }
+
+            .pop-news>div{
+                color: white;
+                background-color:black;
+                margin-top: 2%;
+                display: flex;
+                margin: 2%;
+                border-bottom: 1px solid white ;
+
+            }
+
+            .pop-news>div:hover{
+                cursor: pointer;
+            }
+        }
+        .react-icons{
+            margin-top: 7%;
+            margin-right: 2%;
+            color: cornflowerblue;
+        }
+    }
+
+    .trending{
+        height: 500px;
+        background-color: white;
+        margin-top: 10vh;
+
+        .trend-news{
+            margin-top: 1%;
+            display: flex;
+            flex-direction: column;
+            margin: 2%;
+
+            .gambar-trend{
+                width: 95vw;
+                height: 60vh;
+            }
+        }
+    }
+
+    .trending>div{
+        border-bottom: 3px solid slateblue;
+        margin-bottom: 2%;
+    }
+}
+
+
+@media only screen and (min-width: 600px) {
+    .home{
+        // background-color: brown;
+    
+        .headline{
+            margin: 1%;
+            // background-color: blue;
+            // height: 20vh;
+            display: flex;
+            flex-direction: row;
+    
+            .caption{
+                display: flex;
+                margin-left: 0;
+                z-index: auto;
+                position: relative;
+                color: white;
+                // display: none;
+    
+                .caption-word{
+                    display: inline;
+                }
+            }
+    
+            .word{
+                position: relative;
+                top: -50%;
+                left: 1%;
+                // margin-top: 10%;
+                display: none;
+            }
+    
+            .gambar{
+                height: 80vh;
+                width: 70vw;
+                position: relative;
+                left: -20vh;
+            }
+    
+            .top-news{
+                position: relative;
+                left: -20vh;
+                .pop-news{
+                    display: flex;
+                    flex-direction: column;
+    
+                }
+    
+                .pop-news>div{
+                    position: relative;
+                    top: 12vh;
+                    left: -2vh;
+                    width: 200px;
+                    color: white;
+                    background-color:black;
+                    margin-top: 5%;
+                    display: flex;
+                    margin: 2%;
+                    border-bottom: 1px solid white ;
+
+                    h1{
+                        font-size: medium;
+                    }
+    
+                }
+    
+                .pop-news>div:hover{
+                    cursor: pointer;
+                }
+            }
+            .react-icons{
+                margin-top: 25%;
+                margin-right: 2%;
+                color: cornflowerblue;
+            }
+        }
+    
+        .trending{
+            height: 500px;
+            background-color: white;
+            margin-top: 10vh;
+            display: flex;
+            width: 100vw;
+            flex-wrap: wrap;
+    
+            .trend-news{
+                margin: 4%;
+    
+                .gambar-trend{
+                    width: 80vw;
+                    height: 70vh;
+                    
+                }
+            }
+        }
+    
+        
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .home{
+        // background-color: greenyellow;
+    
+        .headline{
+            margin: 1%;
+            // background-color: blue;
+            // height: 20vh;
+            display: flex;
+            flex-direction: row;
+    
+            .caption{
+                display: flex;
+                margin-left: 0;
+                z-index: auto;
+                position: relative;
+                color: white;
+                // display: none;
+    
+                .caption-word{
+                    display: inline;
+                }
+            }
+    
+            .word{
+                position: relative;
+                top: -50%;
+                left: 1%;
+                // margin-top: 10%;
+                display: none;
+            }
+    
+            .gambar{
+                height: 80vh;
+                width: 70vw;
+                position: relative;
+                left: -20vh;
+            }
+    
+            .top-news{
+                position: relative;
+                left: -20vh;
+                .pop-news{
+                    display: flex;
+                    flex-direction: column;
+    
+                }
+    
+                .pop-news>div{
+                    position: relative;
+                    top: 12vh;
+                    left: -2vh;
+                    width: 200px;
+                    color: white;
+                    background-color:black;
+                    margin-top: 5%;
+                    display: flex;
+                    margin: 2%;
+                    border-bottom: 1px solid white ;
+
+                    h1{
+                        font-size: medium;
+                    }
+    
+                }
+    
+                .pop-news>div:hover{
+                    cursor: pointer;
+                }
+            }
+            .react-icons{
+                margin-top: 25%;
+                margin-right: 2%;
+                color: cornflowerblue;
+            }
+        }
+    
+        .trending{
+            height: 100vh;
+            // background-color: cornflowerblue;
+            margin-top: 10vh;
+    
+            .trend-news{
+                display: flex;
+                flex-direction: row;
+                margin: 2%;
+    
+                .gambar-trend{
+                    width: 20vw;
+                    height: 20vh;
+                }
+                .trend-caption{
+                    margin-top: 2%;
+
+                }
+            }
+        }
+        .trending>div{
+            border-bottom: 3px solid slateblue;
+            margin-bottom: 20px;
+        }
+    
+        
+    }
+}
+
+
+@media only screen and (min-width: 992px) {
+    .home{
+        background-color: black;
+    
+        .headline{
+            margin: 1%;
+            // background-color: blue;
+            // height: 20vh;
+            display: flex;
+            flex-direction: row;
+    
+            .caption{
+                display: flex;
+                margin-left: 0;
+                z-index: auto;
+                position: relative;
+                color: white;
+                // display: none;
+    
+                .caption-word{
+                    display: inline;
+                    position: relative;
+                    left: 3%;
+                    top: 30%;
+
+                }
+            }
+    
+            .word{
+                position: relative;
+                top: -50%;
+                left: 1%;
+                // margin-top: 10%;
+                display: none;
+            }
+    
+            .gambar{
+                height: 70vh;
+                width: 30vw;
+                position: relative;
+                left: 4vh;
+            }
+    
+            .top-news{
+                position: relative;
+                left: 10vh;
+                .pop-news{
+                    display: flex;
+                    flex-direction: column;
+    
+                }
+    
+                .pop-news>div{
+                    position: relative;
+                    top: 12vh;
+                    left: -4vh;
+                    width: 25vw;
+                    color: white;
+                    background-color:black;
+                    margin-top: 5%;
+                    display: flex;
+                    margin: 2%;
+                    border-bottom: 1px solid white ;
+
+                    h1{
+                        font-size: x-large;
+                    }
+    
+                }
+    
+                .pop-news>div:hover{
+                    cursor: pointer;
+                    background-color: slateblue;
+                    border-bottom: 3px solid greenyellow;
+
+                }
+            }
+            .react-icons{
+                margin-top: 15%;
+
+            }
+        }
+    
+        .trending{
+            height: 100vh;
+            width: 98.7vw;
+            margin-top: 10vh;
+    
+            .trend-news{    
+                .gambar-trend{
+                    width: 9vw;
+                    height: 25vh;
+                }
+
+            }
+        }
+        
+    }
+}
