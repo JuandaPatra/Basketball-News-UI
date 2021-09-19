@@ -37,7 +37,7 @@ const App = () => {
           </div>
         </div>
         <div className="top-news">
-          <h1 className="head-pop-news">POPULAR NEWS</h1>
+          <h1 className="head-pop-news">POPULAR NEWS!</h1>
           <div className="pop-news">
             <div className="pop-1">
             <h1>Who will be MVP of the year?</h1>
