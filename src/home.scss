@@ -6,7 +6,7 @@
 .home {
   // background-color: black;
   // height: 1000px;
-  margin-bottom: 10vh;
+  // margin-bottom: 10vh;
 
   .headline {
     // margin: 1%;
@@ -23,6 +23,8 @@
       color: white;
       // display: none;
 
+      
+
       .caption-word {
         display: none;
       }
@@ -37,6 +39,10 @@
 
     .gambar {
       height: 85vh;
+    }
+
+    .nopad{
+      padding: 0;
     }
 
     .top-news {
@@ -100,12 +106,17 @@
         width: 70%;
         text-align: justify;
         text-justify: inter-word;
+
+        p{
+          font-size: 0.9rem;
+        }
       }
 
       .gambar-trend {
         // width: 95vw;
         // height: 60vh;
         height: 10rem;
+        // height: 100%;
         width: 10rem;
         padding: 1%;
         object-fit: cover;

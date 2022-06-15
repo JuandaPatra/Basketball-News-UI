@@ -42,14 +42,14 @@ export const Headline = () => {
       </div>
     </div> */}
       <div className="headline mt-3  bg-dark">
-        <div className="container-sm">
-        <div className="row ">
-          <div className="col-md-4 position-relative">
-            <div className="position-absolute top-50">
-            <h1 className="text-white  fs-4">Match of the Year is Coming Back</h1>
+        <div className="container-fluid">
+        <div className="row mb-3">
+          <div className="d-none d-md-block col-md-4 position-relative">
+            <div className="position-absolute top-50 ps-4 ">
+            <h1 className="text-white  fs-4 mx-auto">Match of the Year is Coming Back</h1>
             </div>
           </div>
-          <div className="col-md-4">
+          <div className="col-md-4 nopad">
             <Image
               src="https://images.unsplash.com/photo-1563506644863-444710df1e03?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=80"
               rounded
@@ -57,7 +57,7 @@ export const Headline = () => {
             />
           </div>
           <div className="col-md-4">
-            <div className="top-news">
+            <div className="top-news pt-5">
               <h1 className="head-pop-news mt-3 text-start">POPULAR NEWS!</h1>
               <div className="pop-news mt-0">
                 <div className="pop-1">
